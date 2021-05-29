@@ -1,0 +1,121 @@
+<!--Drishti Arora-->
+
+<html>
+    <head>
+        <title>
+            Sign Up
+        </title>
+        
+    </head>
+    <style>
+        body{
+            background-image:url("bg2.PNG");
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        div{
+            backdrop-filter: blur(10px);
+            border-radius: 50px;
+            font-size: 40px;
+            padding: 130px 10px 20px 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%; 
+            margin: -250px 0 0 -200px;
+            text-align: center;
+            font-family: 'Odibee Sans', cursive;
+        }
+
+        button{
+            display: block;
+            margin-left: 80px;
+            background-color: #0f7ee6;
+            padding: 12px 24px;
+            font-size: 25px;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+        
+        input {
+            height:40px; 
+            width:300px;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        input::placeholder{
+            font-style: italic;
+            font-size: 20px;
+            font-family: cursive;
+        }
+
+        input.check{
+            width: 20px;
+            height: 20px;
+            margin-top: -3px;
+            margin-left: -100px;
+        }
+        
+
+        img{
+            padding: -50;
+            margin-top: -180px;
+            margin-bottom: 10px;
+            width: 300;
+        }
+
+        form{
+            margin-top: -50px;
+        }
+
+        label{
+            
+            font-size: 22px;
+        }
+
+        p,a{
+            font-size: 18px;
+        }
+    </style>
+   
+    <body>
+
+        <script>
+            function myFunction() {
+            var x = document.getElementById("pw");
+                if (x.type === "password") {
+                    x.type = "text";
+                } else {
+                    x.type = "password";
+                }
+            }
+        </script>
+
+
+        <div>
+            <img src="Logo.png" alt="LinkedInLogo">
+            <br>
+            <form >
+                <input type="text" id="name" placeholder="Username" required> <br>
+               
+                <input type="email" id="email" placeholder="Email" required> <br>
+                
+                <input type="password" placeholder="Password" id="pw" > <br>
+                
+                <input type="checkbox" class="check" onclick="myFunction()">
+                <label>Show password</label>
+    
+            </form>
+            <button type="submit" value="Signup">Sign Up</button>
+
+            <p>Existing user?
+                <a href="Login.html">Log In</a>
+            </p>
+            
+
+        </div>
+        
+    </body>
+</html>

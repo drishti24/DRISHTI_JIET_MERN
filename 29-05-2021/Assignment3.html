@@ -1,0 +1,88 @@
+<!--Drishti Arora-->
+
+<html>
+    <head>
+
+        <title>LinkedIn</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+        body{
+            background-image:url("bg1.jpg");
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        div.main{
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 25px;
+            font-size: 40px;
+            padding: 50px 10px 50px 10px;
+            position: absolute;
+            top: 50%;
+            left: 75%;    
+            margin: -200px 0 0 -200px;
+            text-align: center;
+            font-family: 'Odibee Sans', cursive;
+        }
+        img{
+            padding: -50;
+            margin-top: -70px;
+            margin-bottom: -60px;
+            width: 300;
+        }
+
+        p.box{
+            margin-bottom: 10px;
+            font-size: 40px;
+        }
+        p.quote{
+            /*text-align: right;*/
+            font-size: 50px;
+            margin-top: 30px;
+            margin-left: 540px;
+            position:relative;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        @media screen and (max-width: 1000px ) {
+            p.quote{
+                font-size: 40px;
+            }
+        }
+
+        @media screen and (max-width: 860px ) {
+            p.quote{
+                font-size: 30px;
+            }
+
+        }
+
+    </style>
+
+    <body>
+        <div>
+            <p class="quote">Let us help you grow!</p>
+        </div>
+        
+        <div class="main">
+            <img src="Logo.png" alt="LinkedInLogo">
+            <br>
+            <p class="box">Have an account?</p>
+            <a href="Login.html">Log in</a>
+            <p class="box">
+                Don't have an account?
+            </p>
+            <a href="Signup.html">Sign up</a>
+        </div>
+            
+    </body>
+
+</html>
