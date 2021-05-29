@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <title>DrishtiAroraAsg2</title>
+    </head>
+    <body>
+        <style>
+            p{
+                font-size: 30px;
+                margin: 25px;
+            }
+            img{
+
+                width: 400;
+                height: 300;              
+                /*display:block;
+                object-fit: fill;*/
+            }
+        
+            span{
+                color: red;
+                font-weight: bold;
+            }
+
+            /*td{
+                width: 100px;
+                height: 25%;
+            }
+        
+            td.fit{
+                width: 100px;
+                height: 50px;
+            }
+            
+            */
+
+            table{
+                width: 1000;
+                
+                
+            }
+
+            tr{
+                width: 500;
+                height: 300;
+            }
+
+            td.desc{
+                width: 1000;
+                
+            }
+            
+            table,button,input,label{
+                margin: 25px;
+            }
+            
+            table, th, td {
+                border: 5px solid black;
+                border-collapse: collapse;
+            }
+
+            label{
+                font-family:cursive;
+                color: rgb(37, 235, 37);
+                margin-left: -10px;
+                font-size: 40px;
+            }
+
+           button{
+                display: block;
+                background-color: #0f7ee6;
+                padding: 14px 28px;
+                font-size: 35px;
+                cursor: pointer;
+           }
+
+           input[type=radio] {
+                height:20px; 
+                width:20px;
+                margin-top: 50;
+            }
+
+            div{
+                display:inline-flex;
+            }
+        
+        </style>
+        <table>
+            <tr>
+                <td class="fit">
+                    <img src="rose.jpg" alt="Rose">
+                </td>
+                <td class="desc">
+                    <p><span>Roses</span> are amongst the most popular flowers. They are available in different colours. A red rose flower is most commonly used to denote love and romance.</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="fit">
+                    <img src="sunflower.jpg" alt="Sunflower">
+                </td>
+                <td class="desc">
+                    <p><span>Sunflower</span> is popular as it is easy to grow and also used for human consumption on a considerable level. It symbolizes loyalty as it always keeps its face towards the Sun.
+                </td>
+            </tr>
+
+            <tr>
+                <td class="fit">
+                    <img src="tulip.jpg" alt="Tulip">
+                </td>
+                <td class="desc">
+                    <p><span>Tulips</span> are large and distinctive flowers that are initially cultivated by the Turks. Tulip flower is considered as the symbol of the Ottoman Empire by Europeans.
+                </td>
+            </tr>
+
+            <tr>
+                <td class="fit">
+                    <img src="daffodils.jpg" alt="Daffodils">
+                </td>
+                <td class="desc">
+                    <p><span>Daffodils</span> are native to Asia, North America, and Europe. It is a representative of regard and respect.  And there are about more than a hundred species of Daffodils.</p>
+                </td>
+            </tr>
+        </table>
+    <div>
+        <input type="radio" id="rose" name="flowers">
+        <label for="rose">Rose</label> 
+
+        <input type="radio" id="sunflower" name="flowers">
+        <label for="sunflower">Sunflower</label> 
+        
+        <input type="radio" id="tulip" name="flowers">
+        <label for="tulip">Tulip</label> 
+        
+        <input type="radio" id="daffodils" name="flowers">
+        <label for="daffodils">Daffodils</label> <br>
+    </div>
+
+        <button type="submit">Submit</button>
+    
+    </body>
+</html>
