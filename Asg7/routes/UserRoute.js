@@ -6,7 +6,7 @@ router.post("/user/signup", userController.signup);
 
 router.post("/user/login", userController.login);
 
-router.get("/user/user:id", userController.getUserById);
+router.get("/user/:id", userController.getUserById);
 
 router.post("/blog", userController.postBlog);
 
